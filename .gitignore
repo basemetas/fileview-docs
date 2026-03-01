@@ -118,3 +118,5 @@ dist
 .vitepress/cache
 .qoder
 dist
+page-1.md
+page-2.md

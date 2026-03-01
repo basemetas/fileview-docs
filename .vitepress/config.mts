@@ -1,4 +1,15 @@
 import { defineConfig } from "vitepress";
+import { usePosts } from "../src/composables/usePosts";
+import type { ThemeConfig } from "../src/types";
+
+const { posts, rewrites } = await usePosts({
+  pageSize: 6,
+  homepage: false,
+  srcDir: "posts",
+  autoExcerpt: 150,
+  prev: true,
+  next: true,
+});
 
 function getBase() {
   // Cloudflare Pages 环境变量
@@ -17,7 +28,7 @@ function getBase() {
 }
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default defineConfig<ThemeConfig>({
   sitemap: {
     hostname: "https://fileview.basemetas.cn",
   },
@@ -52,6 +63,7 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    posts,
     logo: "",
     siteTitle: "BaseMetas 文件预览",
     search: {
@@ -72,6 +84,10 @@ export default defineConfig({
       { text: "安装部署", link: "/docs/install/docker" },
       { text: "服务集成", link: "/docs/feature/integration" },
       { text: "在线体验", link: "https://file.basemetas.cn", target: "_blank" },
+      {
+        text: "技术文章",
+        link: "/page-1",
+      },
     ],
 
     sidebar: {
@@ -101,6 +117,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "字体安装", link: "/docs/feature/fonts" },
+            // { text: "界面高级设置", link: "/docs/feature/interface-control" },
             { text: "文件密码", link: "/docs/product/password" },
             { text: "预览地址", link: "/docs/product/preview-url" },
             { text: "文件存储", link: "/docs/product/storage" },
@@ -151,6 +168,7 @@ export default defineConfig({
     lightModeSwitchTitle: "切换到浅色模式",
     darkModeSwitchTitle: "切换到深色模式",
   },
+  rewrites,
   lastUpdated: true,
   ignoreDeadLinks: true,
   vite: {
