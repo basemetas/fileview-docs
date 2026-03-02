@@ -117,7 +117,7 @@ export default defineConfig<ThemeConfig>({
           collapsed: false,
           items: [
             { text: "字体安装", link: "/docs/feature/fonts" },
-            // { text: "界面高级设置", link: "/docs/feature/interface-control" },
+            { text: "界面高级设置", link: "/docs/feature/interface-control" },
             { text: "文件密码", link: "/docs/product/password" },
             { text: "预览地址", link: "/docs/product/preview-url" },
             { text: "文件存储", link: "/docs/product/storage" },
