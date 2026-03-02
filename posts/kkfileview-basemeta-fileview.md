@@ -8,6 +8,9 @@ category: 文章
 tags:
   - fileview
   - 开源
+prev:
+  text: 正式开源！BaseMetas Fileview：企业级全格式文件预览引擎，前后端源码全开放
+  link: /posts/fileview-code-open
 next:
   text: 200+格式｜开源免费｜即插即用：文件预览的终极烦恼，解了
   link: /posts/fileview-open-source
