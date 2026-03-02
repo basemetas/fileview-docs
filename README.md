@@ -28,4 +28,4 @@ https://file.basemetas.cn
 
 ## 开源地址
 
-目前产品正在打磨细节，做开源前的准备，预计在 2026 年一季度开源。
+https://github.com/basemetas/fileview
