@@ -72,3 +72,11 @@ window.open(previewUrl, "_blank");
 系统支持子目录部署，具体见 [子目录部署](/docs/install/docker#子目录部署)
 
 此时预览服务的路径则为 `https://yourPreviewService/<subpath>/preview/view?data=${base64Data}`
+
+
+## 界面高级设置
+
+#### 文字水印
+文件预览支持文字水印，使用方法见 [文字水印](./interface-control.md#自定义水印)
+#### 嵌入模式
+文件预览支持嵌入模式，使用方法见 [嵌入模式](./interface-control.md#嵌入模式)
