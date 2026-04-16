@@ -3,6 +3,7 @@ description: >-
   BaseMetas Fileview 完整部署对接指南，面向开发人员，涵盖 Docker 部署、Nginx 反向代理、API 集成、iframe
   嵌入、安全配置、高级功能等全流程技术指导。
 title: BaseMetas Fileview 部署对接指南：从零到生产环境的完整集成手册
+datetime: '2026-04-12 22:44:08'
 permalink: /posts/fileview-deployment-integration-guide
 outline: deep
 category: 文章

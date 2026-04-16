@@ -3,6 +3,7 @@ description: >-
   Seafile集成BaseMetas
   Fileview实现全格式文件在线预览，解决社区版Office预览依赖外部服务、格式覆盖有限等问题，提供统一高效的文档预览方案。
 title: Seafile 文件预览增强方案：集成 BaseMetas Fileview 突破格式限制
+datetime: '2026-04-12 22:18:19'
 permalink: /posts/seafile-integrate-fileview
 outline: deep
 category: 文章

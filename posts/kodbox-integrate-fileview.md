@@ -1,6 +1,7 @@
 ---
 description: Kodbox可道云集成BaseMetas Fileview实现全格式文件在线预览，解决社区版预览依赖第三方云服务、格式受限等问题，打造私有化全格式预览方案。
 title: Kodbox 文件预览进化之路：集成 BaseMetas Fileview 打造私有化全格式预览
+datetime: '2026-04-12 22:20:36'
 permalink: /posts/kodbox-integrate-fileview
 outline: deep
 category: 文章
