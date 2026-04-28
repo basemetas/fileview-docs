@@ -16,8 +16,8 @@ prev:
   text: Kodbox 文件预览进化之路：集成 BaseMetas Fileview 打造私有化全格式预览
   link: /posts/kodbox-integrate-fileview
 next:
-  text: Nextcloud 文件预览困局与破局：集成 BaseMetas Fileview 实现全格式在线预览
-  link: /posts/nextcloud-integrate-fileview
+  text: 正式开源！BaseMetas Fileview：企业级全格式文件预览引擎，前后端源码全开放
+  link: /posts/fileview-code-open
 ---
 
 # Seafile 文件预览增强方案：集成 BaseMetas Fileview 突破格式限制

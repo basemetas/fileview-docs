@@ -9,8 +9,8 @@ tags:
   - fileview
   - 开源
 prev:
-  text: Nextcloud 文件预览困局与破局：集成 BaseMetas Fileview 实现全格式在线预览
-  link: /posts/nextcloud-integrate-fileview
+  text: Seafile 文件预览增强方案：集成 BaseMetas Fileview 突破格式限制
+  link: /posts/seafile-integrate-fileview
 next:
   text: 技术选型指南：同为开源预览，KK FileView 与 BaseMetas FileView 如何抉择？
   link: /posts/fileview-open-source

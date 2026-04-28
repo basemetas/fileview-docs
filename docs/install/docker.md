@@ -25,7 +25,10 @@ docker pull docker.1ms.run/basemetas/fileview:latest
 docker pull dockerproxy.net/basemetas/fileview:latest
 ```
 
-如遇第三方加速不稳定，请关注第三方官方网站或交流群公告
+> [!IMPORTANT]
+> - 部分第三方加速会更新不及时，请求优先从 docker hub 官方拉取
+> - 如遇第三方加速不稳定，请关注第三方官方网站或交流群公告
+
 
 ## 启动预览服务
 

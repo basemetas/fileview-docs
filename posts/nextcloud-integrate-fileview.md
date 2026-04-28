@@ -12,12 +12,9 @@ tags:
   - Nextcloud
   - 开源
   - 集成
-prev:
-  text: Seafile 文件预览增强方案：集成 BaseMetas Fileview 突破格式限制
-  link: /posts/seafile-integrate-fileview
 next:
-  text: 正式开源！BaseMetas Fileview：企业级全格式文件预览引擎，前后端源码全开放
-  link: /posts/fileview-code-open
+  text: BaseMetas Fileview 部署对接指南：从零到生产环境的完整集成手册
+  link: /posts/fileview-deployment-integration-guide
 ---
 
 # Nextcloud 文件预览困局与破局：集成 BaseMetas Fileview 实现全格式在线预览

@@ -12,6 +12,9 @@ tags:
   - 部署
   - 集成
   - 开发指南
+prev:
+  text: Nextcloud 文件预览困局与破局：集成 BaseMetas Fileview 实现全格式在线预览
+  link: /posts/nextcloud-integrate-fileview
 next:
   text: Kodbox 文件预览进化之路：集成 BaseMetas Fileview 打造私有化全格式预览
   link: /posts/kodbox-integrate-fileview
