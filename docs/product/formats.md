@@ -57,8 +57,7 @@ Fileview 支持超过 200 种文件格式的在线预览，覆盖办公文档、
 - **其他音频：** ac3, au, wma, aif, aifc, aiff
 
 ### 视频格式
-- **主流视频：** mp4, webm, avi, mkv, mov, flv
-- **其他视频：** m4v, mpg, mpeg, m2v, m4p, mj2, ogv, qt, vob, wmv
+- mp4, webm, avi，m4v, mpg, mpeg, m2v, m4p, ogv, wmv
 
 
 
