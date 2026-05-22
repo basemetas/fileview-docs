@@ -154,7 +154,7 @@ export default defineConfig<ThemeConfig>({
 
     footer: {
       message: `Copyright © ${new Date().getFullYear()} BaseMetas. All rights reserved.`,
-      copyright: "苏ICP备2026000303号-1",
+      copyright: "<a href='https://beian.miit.gov.cn/' target='_blank'>苏ICP备2026000303号-1</a>",
     },
 
     docFooter: {
