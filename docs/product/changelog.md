@@ -3,6 +3,15 @@ description: Fileview产品版本更新日志，记录功能优化、性能改�
 ---
 # 更新日志
 
+## v1.5.1
+
+时间: 2026.05.30
+ 
+- 修复 CMap 文件缺失导致的中文 PDF 缺失文字的问题 [#33](https://github.com/basemetas/fileview/issues/33)   
+- 修复 PDF.js v5 兼容性问题，最低支持到 Chrome 92 [#43](https://github.com/basemetas/fileview/issues/43)
+- 修复压缩包内多级文件夹返回上一级目录不显示 [#44](https://github.com/basemetas/fileview/issues/44)  
+
+
 ## v1.5.0
 
 时间: 2026.04.28
