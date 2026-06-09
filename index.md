@@ -15,7 +15,7 @@ hero:
       text: 产品介绍
       link: /docs/product/summary
     - theme: alt
-      text: 企业版
+      text: 企业级高性能高可用方案
       link: https://basemetas.com
 
 features:
