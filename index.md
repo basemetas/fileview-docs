@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: 产品介绍
       link: /docs/product/summary
+    - theme: alt
+      text: 企业版
+      link: https://basemetas.com
 
 features:
   - title: 🚀 在线预览

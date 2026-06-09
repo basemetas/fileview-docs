@@ -93,6 +93,7 @@ export default defineConfig<ThemeConfig>({
       { text: "安装部署", link: "/docs/install/docker" },
       { text: "服务集成", link: "/docs/feature/integration" },
       { text: "在线体验", link: "https://file.basemetas.cn", target: "_blank" },
+      { text: "<strong style='color:red'>企业版</strong>", link: "https://basemetas.com", target: "_blank" },
       {
         text: "技术文章",
         link: "/page-1",
