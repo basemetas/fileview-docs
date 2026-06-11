@@ -12,6 +12,9 @@ tags:
   - Nextcloud
   - 开源
   - 集成
+prev:
+  text: BaseMetas FileView商业版正式发布：从文件预览到企业文档基础设施
+  link: /posts/enterprise-edition
 next:
   text: BaseMetas Fileview 部署对接指南：从零到生产环境的完整集成手册
   link: /posts/fileview-deployment-integration-guide
