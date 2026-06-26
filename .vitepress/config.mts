@@ -98,6 +98,7 @@ export default defineConfig<ThemeConfig>({
         text: "技术文章",
         link: "/page-1",
       },
+      { text: "FAQ", link: "https://basemetas.com/faq.html", target: "_blank" },
     ],
 
     sidebar: {
