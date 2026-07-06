@@ -30,6 +30,25 @@ const previewUrl = `https://yourPreviewService/preview/view?url=${url}&fileName=
 window.open(previewUrl, "_blank");
 ```
 
+```js
+// base64 方式构造水印参数
+const opts = {
+  url: "https://mydomain.com/myfiles/sample.docx", // 网络文件地址，支持 http/https/ftp
+  fileName: "sample.docx", // 真实文件名，用作文件类型辅助判断，如果文件地址中没有正确文件后缀，则需要手动传递
+  displayName: "网络示例文档", // 用于标题栏等展示的文件名，非必需
+  watermark: {
+    value: "BaseMetas Fileview\nwatermark"
+  }
+};
+
+// 对参数进行base64编码
+const base64Data = encodeURIComponent(Base64.encode(JSON.stringify(opts)));
+
+// 构造预览地址
+const previewUrl = `https://yourPreviewService/preview/view?data=${base64Data}`;
+window.open(previewUrl, "_blank");
+```
+
 ## 嵌入模式
 
 支持嵌入模式，即没有顶部菜单的模式，便于嵌入其他系统做区域展示。
@@ -42,5 +61,22 @@ const mode = "embed"; // normal: 普通，embed：嵌入，无菜单栏
 
 // 构造预览地址
 const previewUrl = `https://yourPreviewService/preview/view?url=${url}&fileName=${fileName}&mode=${mode}`;
+window.open(previewUrl, "_blank");
+```
+
+```js
+// base64 方式构造嵌入模式参数
+const opts = {
+  url: "https://mydomain.com/myfiles/sample.docx", // 网络文件地址，支持 http/https/ftp
+  fileName: "sample.docx", // 真实文件名，用作文件类型辅助判断，如果文件地址中没有正确文件后缀，则需要手动传递
+  displayName: "网络示例文档", // 用于标题栏等展示的文件名，非必需
+  mode: "embed"
+};
+
+// 对参数进行base64编码
+const base64Data = encodeURIComponent(Base64.encode(JSON.stringify(opts)));
+
+// 构造预览地址
+const previewUrl = `https://yourPreviewService/preview/view?data=${base64Data}`;
 window.open(previewUrl, "_blank");
 ```
