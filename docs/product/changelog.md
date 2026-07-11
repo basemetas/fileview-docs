@@ -3,6 +3,14 @@ description: Fileview产品版本更新日志，记录功能优化、性能改�
 ---
 # 更新日志
 
+## v1.5.2
+
+时间: 2026.07.10
+
+- JDK 升级到 21 
+- 修复 PDF 页面方向问题，及双页模式的显示效果
+- 修复多页 TIFF 文件显示问题 [#46](https://github.com/basemetas/fileview/issues/46) 
+
 ## v1.5.1
 
 时间: 2026.05.30
