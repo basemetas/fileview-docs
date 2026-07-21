@@ -10,19 +10,19 @@ description: Fileview Docker容器化部署教程，支持AMD64/ARM64多架构�
 #### docker hub
 
 ```bash
-docker pull basemetas/fileview:1.5.1
+docker pull basemetas/fileview:1.5.2
 ```
 
 #### 毫秒镜像
 
 ```bash
-docker pull docker.1ms.run/basemetas/fileview:1.5.1
+docker pull docker.1ms.run/basemetas/fileview:1.5.2
 ```
 
 #### dockerproxy
 
 ```bash
-docker pull dockerproxy.net/basemetas/fileview:1.5.1
+docker pull dockerproxy.net/basemetas/fileview:1.5.2
 ```
 
 
